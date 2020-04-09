@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inizio container */
+
+.container {
+    position: relative;
+}
+
+.block {
+    display: inline-block;
+    background-image: cover;
+    position: relative;
+}
+
+.sconto {
+    background-color: green;
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.block .cuore a {
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    left: 160px;
+    display: none;
+}
+
+.block:hover a{
+    display: block;
+    color: red;
+    display: inline-block;
+}
+
+/* colori */
+
+.red {
+    background-color: red;
+}
+
+
+
+
+
+
+/* fine container */
